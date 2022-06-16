@@ -16,7 +16,7 @@ import OtherProducts from "../components/other-products/OtherProducts";
 import styles from "../components/productDetails.module.css";
 import SizeGuideModal from "../components/size-guide-modal/SizeGuideModal";
 import MessageModal from "../components/message-modal/MessageModal";
-import MessageBox from "../components/message-box/MessageBox";
+import MSD_Box from "../components/rtl/msd-box/MSD_Box";
 
 const basicColors = [
   {
@@ -1203,10 +1203,8 @@ function ProductDetail() {
         ) : (
           ""
         )}
-
-        {/* <MessageBox /> */}
       </Layout>
-      {isVartiationsSelected == true ? <MessageBox message={"Please choose all the options"} /> : ""}
+      {isVartiationsSelected == true ? <MSD_Box message={"Please choose all the options"} /> : ""}
     </>
   );
 }

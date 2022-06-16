@@ -21,7 +21,6 @@ import SizeGuideModal from "../../components/rtl/size-guide-modal/SizeGuideModal
 import MessageModal from "../../components/rtl/message-modal/MessageModal";
 import ShopFilters from "../../components/rtl/shop-filters/ShopFilters";
 import ProductCard from "../../components/rtl/product-card/ProductCard";
-import MessageBox from "../../components/rtl/message-box/MessageBox";
 import Link from "next/link";
 
 

@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import Layout from "../components/layout/Layout";
-
 import Eight from "../assets/images/designers/eight.jpg";
 import FourteenTen from "../assets/images/designers/fourteen-ten.jpg";
 import NadaLine from "../assets/images/designers/nada-line.jpg";

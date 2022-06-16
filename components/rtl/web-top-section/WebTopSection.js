@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./WebTopSection.module.css";
-import heroImage from "../../assets/images/hero-image.jpg";
+import heroImage from "../../../assets/images/hero-image.jpg";
 import ImgLazyLoad from "../img-lazy-load/ImgLazyLoad";
 // import ImgLazyLoad from "../img-lazy-load/ImgLazyLoad";
 
