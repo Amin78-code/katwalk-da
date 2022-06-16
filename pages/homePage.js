@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-import ShopByCategory from "../components/shop-by-category/ShopByCategory";
+import ShopByCateg from "../components/shop-by-category/ShopByCateg";
 import TextImgSection from "../components/text-img-section/TextImgSection";
 import katwalkBag from "../assets/images/designers/katwalk-bag.jpg";
 import bestSellingProduct from "../assets/images/best-selling/best-selling-product.jpg";
@@ -31,7 +31,7 @@ function HomePage() {
     <>
       <Layout>
         <WebTopSection />
-        <ShopByCategory />
+        <ShopByCateg />
         <TextImgSection data={designerData} />
         <TextImgSection data={bestSellingData} />
         <Features />

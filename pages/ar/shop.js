@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Layout from "../../components/rtl/layout/Layout";
-import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCategory";
+import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCateg";
 import TextImgSection from "../../components/rtl/text-img-section/TextImgSection";
 import productImg1 from "../../assets/images/products/orange-1/img3.jpg";
 import productImg2 from "../../assets/images/products/product2.jpg";

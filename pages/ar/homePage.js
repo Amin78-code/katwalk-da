@@ -1,11 +1,10 @@
 import React from "react";
 import Layout from "../../components/rtl/layout/Layout";
-import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCategory";
+import ShopByCateg from "../../components/rtl/shop-by-category/shopByCateg";
 import TextImgSection from "../../components/rtl/text-img-section/TextImgSection";
 import katwalkBag from "../../assets/images/designers/katwalk-bag.jpg";
 import bestSellingProduct from "../../assets/images/best-selling/best-selling-product.jpg";
 import Features from "../../components/rtl/features/Features";
-import allIcons from "../../assets/images/icons/all-icons.svg";
 import { useEffect } from "react";
 import WebTopSection from "../../components/rtl/web-top-section/WebTopSection";
 function HomePage() {
@@ -35,7 +34,7 @@ function HomePage() {
     <div className="far">
       <Layout>
         <WebTopSection />
-        <ShopByCategory />
+        <ShopByCateg />
         <TextImgSection data={designerData} />
         <TextImgSection data={bestSellingData} />
         <Features />

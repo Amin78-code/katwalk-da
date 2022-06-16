@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/rtl/layout/Layout";
-import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCategory";
+import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCateg";
 import TextImgSection from "../../components/rtl/text-img-section/TextImgSection";
 import katwalkBag from "../../assets/images/designers/katwalk-bag.jpg";
 import Features from "../../components/rtl/features/Features";
