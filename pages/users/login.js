@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Hero from "../../components/hero/Hero";
 import Layout from "../../components/layout/Layout";
 import ShopByCategory from "../../components/shop-by-category/ShopByCategory";
 import TextImgSection from "../../components/text-img-section/TextImgSection";

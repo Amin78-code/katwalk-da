@@ -1,11 +1,11 @@
 import React from "react";
-import Hero from "../components/hero/Hero";
 import Layout from "../components/layout/Layout";
 import ShopByCategory from "../components/shop-by-category/ShopByCategory";
 import TextImgSection from "../components/text-img-section/TextImgSection";
 import katwalkBag from "../assets/images/designers/katwalk-bag.jpg";
 import bestSellingProduct from "../assets/images/best-selling/best-selling-product.jpg";
 import Features from "../components/features/Features";
+import WebTopSection from "../components/web-top-section/WebTopSection";
 
 function HomePage() {
   const designerData = {
@@ -30,7 +30,7 @@ function HomePage() {
   return (
     <>
       <Layout>
-        <Hero />
+        <WebTopSection />
         <ShopByCategory />
         <TextImgSection data={designerData} />
         <TextImgSection data={bestSellingData} />
