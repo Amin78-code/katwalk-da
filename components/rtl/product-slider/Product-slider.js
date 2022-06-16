@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import allIcons from "../../../assets/images/icons/all-icons.svg";
-import ImgLazyLoad from "../img-lazy-load/Img-lazy-load";
+import ImgLazyLoad from "../img-lazy-load/ImglazyLoad";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logoSquare from "../../../assets/images/logo/logo-square.png";
 import vat from "../../../assets/images/logo/vat.png";
-import styles from "./messageBox.module.css";
+import styles from "./MessageBox.module.css";
 import heroImage from "../../../assets/images/hero-image.jpg";
 
 function MessageBox({ message }) {

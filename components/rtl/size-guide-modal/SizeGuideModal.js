@@ -8,7 +8,7 @@ import sizGuide from "../../../assets/images/size-guide.jpg";
 import {
   IoCloseOutline
 } from "react-icons/io5";
-import ImgLazyLoad from "../img-lazy-load/Img-lazy-load";
+import ImgLazyLoad from "../img-lazy-load/ImglazyLoad";
 
 function SizeGuideModal({ toggleSizeGuideModal }) {
   return (

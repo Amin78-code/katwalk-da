@@ -9,7 +9,7 @@ import loginBgImgMob from "../../assets/images/login-bg-mob.jpg";
 import Features from "../../components/features/Features";
 import HeadingAndText from "../../components/heading-and-text/HeadingAndText";
 import styles from "../../components/login.module.css";
-import ImgLazyLoad from "../../components/img-lazy-load/Img-lazy-load";
+import ImgLazyLoad from "../../components/img-lazy-load/ImglazyLoad";
 
 function Login() {
   return (

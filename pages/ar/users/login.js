@@ -9,7 +9,7 @@ import loginBgImgMob from "../../../assets/images/login-bg-mob.jpg";
 import Features from "../../../components/rtl/features/Features";
 import HeadingAndText from "../../../components/rtl/heading-and-text/HeadingAndText";
 import styles from "../../../components/rtl/login.module.css";
-import ImgLazyLoad from "../../../components/rtl/img-lazy-load/Img-lazy-load";
+import ImgLazyLoad from "../../../components/rtl/img-lazy-load/ImglazyLoad";
 
 function Login() {
   return (

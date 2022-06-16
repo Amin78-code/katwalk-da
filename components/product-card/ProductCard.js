@@ -2,7 +2,7 @@ import React, { useState, } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import MessageBox from "../message-box/MessageBox";
-import ImgLazyLoad from "../img-lazy-load/Img-lazy-load";
+import ImgLazyLoad from "../img-lazy-load/ImglazyLoad";
 
 function ProductCard({ data, newTag }) {
   const [isLogin, setIsLogin] = useState(false);
