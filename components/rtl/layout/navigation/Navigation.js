@@ -353,7 +353,7 @@ function Navigation() {
               </div>
               {/* cart icon for mob */}
 
-              <div className="my-icon bag w-[21px] h-[19px] cursor-pointer relative z-4 bgAllIcon bg-[left_-10px_top_-151px] block     lg:hidden"></div>
+              <div  onClick={() => cartToggler()} className="my-icon bag w-[21px] h-[19px] cursor-pointer relative z-4 bgAllIcon bg-[left_-10px_top_-151px] block     lg:hidden"></div>
               <span className="text-[12px] mr-[7px] pt-[3px]">
                 1
               </span>
