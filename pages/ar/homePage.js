@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from "../../components/rtl/hero/Hero";
 import Layout from "../../components/rtl/layout/Layout";
 import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCategory";
 import TextImgSection from "../../components/rtl/text-img-section/TextImgSection";
@@ -8,6 +7,7 @@ import bestSellingProduct from "../../assets/images/best-selling/best-selling-pr
 import Features from "../../components/rtl/features/Features";
 import allIcons from "../../assets/images/icons/all-icons.svg";
 import { useEffect } from "react";
+import WebTopSection from "../../components/rtl/web-top-section/WebTopSection";
 function HomePage() {
   useEffect(() => {
     document.querySelector("body").style.direction = 'rtl'
@@ -34,7 +34,7 @@ function HomePage() {
   return (
     <div className="far">
       <Layout>
-        <Hero />
+        <WebTopSection />
         <ShopByCategory />
         <TextImgSection data={designerData} />
         <TextImgSection data={bestSellingData} />

@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from "../../components/rtl/hero/Hero";
 import Layout from "../../components/rtl/layout/Layout";
 import ShopByCategory from "../../components/rtl/shop-by-category/ShopByCategory";
 import TextImgSection from "../../components/rtl/text-img-section/TextImgSection";
