@@ -357,6 +357,8 @@ function Navigation() {
               <span className="text-[12px] mr-[7px] pt-[3px]">
                 1
               </span>
+
+              
             </div>
             <div className="px-[8px] flex items-center border-l-[1px] border-[#e2e5ec] hidden       lg:flex">
               <Link href="/ar/dashboard/wishlists">
