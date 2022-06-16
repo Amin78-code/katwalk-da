@@ -1,9 +1,5 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-import ShopByCategory from "../components/shop-by-category/ShopByCateg";
-import TextImgSection from "../components/text-img-section/TextImgSection";
-import katwalkBag from "../assets/images/designers/katwalk-bag.jpg";
-import Features from "../components/features/Features";
 import HeadingAndText from "../components/heading-and-text/HeadingAndText";
 
 function PrivacyPolicy() {
