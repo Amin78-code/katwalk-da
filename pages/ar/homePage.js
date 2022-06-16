@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/rtl/layout/Layout";
 import ShopByCateg from "../../components/rtl/shop-by-category/shopByCateg";
+
+
 import TextImgSection from "../../components/rtl/text-img-section/TextImgSection";
 import katwalkBag from "../../assets/images/designers/katwalk-bag.jpg";
 import bestSellingProduct from "../../assets/images/best-selling/best-selling-product.jpg";
@@ -21,7 +23,7 @@ function HomePage() {
     title: "الأكثر مبيعًا",
     text: "اختيارات متسوقاتنا المفضلة",
     img: bestSellingProduct,
-    type: "product"
+    type: "product",
   }
 
 
