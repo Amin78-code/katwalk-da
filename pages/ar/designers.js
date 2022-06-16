@@ -39,7 +39,7 @@ import MessageModal from "../../components/rtl/message-modal/MessageModal";
 import ShopFilters from "../../components/rtl/shop-filters/ShopFilters";
 import ProductCard from "../../components/rtl/product-card/ProductCard";
 import Link from "next/link";
-import ImgLazyLoad from "../../components/rtl/img-lazy-load/ImglazyLoad";
+import ImgLazyLoad from "../../components/rtl/img-lazy-load/ImgLazyLoad";
 import { useEffect } from "react";
 function Designers() {
   useEffect(() => {

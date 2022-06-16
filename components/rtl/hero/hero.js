@@ -5,8 +5,8 @@ import vat from "../../../assets/images/logo/vat.png";
 import styles from "./hero.module.css";
 import heroImage from "../../../assets/images/hero-image.jpg";
 import allIcons from "../../../assets/images/icons/all-icons.svg";
-import ImgLazyLoad from "../img-lazy-load/ImglazyLoad";
-// import ImgLazyLoad from "../img-lazy-load/ImglazyLoad";
+import ImgLazyLoad from "../img-lazy-load/ImgLazyLoad";
+// import ImgLazyLoad from "../img-lazy-load/ImgLazyLoad";
 
 function Hero() {
   return (

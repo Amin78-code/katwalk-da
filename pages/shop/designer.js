@@ -9,7 +9,7 @@ import productImg3 from "../../assets/images/products/product3.jpg";
 import productImg4 from "../../assets/images/products/product4.jpg";
 import ShopFilters from "../../components/shop-filters/ShopFilters";
 import ProductCard from "../../components/product-card/ProductCard";
-import ImgLazyLoad from "../../components/img-lazy-load/ImglazyLoad";
+import ImgLazyLoad from "../../components/img-lazy-load/ImgLazyLoad";
 
 function DesignerDetail() {
   const otherProducts = [

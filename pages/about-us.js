@@ -9,7 +9,7 @@ import HeadingAndText from "../components/heading-and-text/HeadingAndText";
 import Image from "next/image";
 import printImg from "../assets/images/categories/1print.jpg";
 import styles from '../components/about.module.css';
-import ImgLazyLoad from "../components/img-lazy-load/ImglazyLoad";
+import ImgLazyLoad from "../components/img-lazy-load/ImgLazyLoad";
 
 function About() {
   const privacyPolicyContent = [
